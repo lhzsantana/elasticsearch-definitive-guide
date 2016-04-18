@@ -12,6 +12,9 @@ one or more nodes with the same `cluster.name` that are working together to
 share their data and workload. As nodes are added to or removed from the
 cluster, the cluster reorganizes itself to spread the data evenly.
 
+
+Em portugues
+
 One node in the cluster is elected to be the _master_ node, which((("master node"))) is in charge
 of managing cluster-wide changes like creating or deleting an index, or adding
 or removing a node from the cluster.  The master node does not need to be
